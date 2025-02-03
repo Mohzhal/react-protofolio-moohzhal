@@ -18,17 +18,17 @@ const Home = () => {
     <div className="absolute font-bold text-[18px] translate-y-[65px] sm:translate-y-[70px] sm:left-[230px] md:left-[245px]  sm:text-5xl right-3  text-[#bd9f67] md:text-7xl md:translate-y-12 lg:text-8xl lg:translate-y-7 lg:left-[275px] xl:left-[480px]">MOOHZHAL</div>
    
    <div className=" translate-y-80 md:ml-36 lg:ml-56 mt-5 sm:ml-28 xl:ml-[500px] lg:translate-y-[340px] xl:translate-y-[295px] font-semibold cursor-pointer">
-      <div className="text-[#bd9f67] sm:ml-32 hover:bg-white ml-4 w-44 lg:w-52 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200   lg:text-[20px] border-2 rounded-md p-1 text-center ">Based in Karawang</div>
+      <div className="text-[#bd9f67] sm:ml-32 hover:bg-white ml-6 w-44 lg:w-52 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200   lg:text-[20px] border-2 rounded-md p-1 text-center ">Based in Karawang</div>
       <div className="flex mt-3 gap-3 sm:gap-8 sm:ml-8" >
       <div className="text-[#bd9f67] hover:bg-white xl:-ml-10 w-44 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200   lg:text-[20px] border-2 rounded-md p-1 text-center ">Mahasiswa</div>
       <div className="text-[#bd9f67] hover:bg-white xl:ml-24 w-44 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200   lg:text-[20px] border-2 rounded-md p-1 text-center ">Engineering</div>
       </div>
       <div className="flex mt-3 gap-3 " >
-      <div className="text-[#bd9f67] hover:bg-white  w-44 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200  xl:-ml-28  lg:text-[20px] border-2 rounded-md p-1 text-center ">Mi</div>
-      <div className="text-[#bd9f67] hover:bg-white  w-44 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200  xl:ml-20 lg:text-[20px] border-2 rounded-md p-1 text-center ">Mts</div>
-      <div className="text-[#bd9f67] hover:bg-white  w-44 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200  xl:ml-28 lg:text-[20px] border-2 rounded-md p-1 text-center ">Ma</div>
+      <div className="text-[#bd9f67] hover:bg-white  w-44 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200  xl:-ml-28  lg:text-[20px] border-2 rounded-md p-1 text-center ">S1</div>
+      <div className="text-[#bd9f67] hover:bg-white  w-44 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200  xl:ml-20 lg:text-[20px] border-2 rounded-md p-1 text-center ">Teknik</div>
+      <div className="text-[#bd9f67] hover:bg-white  w-44 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200  xl:ml-28 lg:text-[20px] border-2 rounded-md p-1 text-center ">Informatika</div>
       </div>
-      <div className="sm:ml-36 xl:ml-16 text-[#bd9f67] hover:bg-white  mt-3 w-52 xl:w-96 lg:w-64 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200   lg:text-[20px] border-2 rounded-md p-1 text-center ">Nihayatul Amal Purwasari</div>
+      <div className="sm:ml-36 xl:ml-16 text-[#bd9f67] hover:bg-white  mt-3 w-52 xl:w-96 lg:w-64 border-[#bd9f67] hover:scale-110 hover:-rotate-6 transition duration-200   lg:text-[20px] border-2 rounded-md p-1 text-center ">STTI Sony Sugema</div>
    </div>
        </div>
   )

@@ -11,6 +11,7 @@ import Skill from "./pages/Skill";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [isContentVisible, setIsContentVisible] = useState(false);
 
   useEffect(() => {
     const getNetworkSpeedDelay = () => {
@@ -33,34 +34,40 @@ const App = () => {
     const loadingDelay = getNetworkSpeedDelay();
     setTimeout(() => {
       setIsLoading(false);
+      setTimeout(() => {
+        setIsContentVisible(true);
+      }, 500); // Delay tambahan untuk memastikan transisi smooth
     }, loadingDelay);
   }, []);
 
-  return isLoading ? (
-    <Loader />
-  ) : (
-    <div className="app-container opacity-0 transition-opacity duration-1000 opacity-100">
-      <div className="h-screen w-[4px] sm:w-[10px] xl:w-7 xl:left-[280px] sm:left-[105px] bg-[#bd9f67] absolute left-24"></div>
-      <Navbar />
-      <Cards />
-      <section id="home">
-        <Home />
-      </section>
-      <section id="about">
-        <About />
-      </section>
-      <section id="project">
-        <Project />
-      </section>
-      <section id="skill">
-        <Skill />
-      </section>
-      <section id="achiv">
-        <Achievment />
-      </section>
-      <section>
-        <Footer />
-      </section>
+  return (
+    <div className="relative w-full h-full bg-[#243137]">
+      {isLoading && <Loader />}
+      {!isLoading && isContentVisible && (
+        <div className="app-container opacity-0 transition-opacity duration-1000 opacity-100">
+          <div className="h-screen w-[4px] sm:w-[10px] xl:w-7 xl:left-[280px] sm:left-[105px] bg-[#bd9f67] absolute left-24"></div>
+          <Navbar />
+          <Cards />
+          <section id="home">
+            <Home />
+          </section>
+          <section id="about">
+            <About />
+          </section>
+          <section id="project">
+            <Project />
+          </section>
+          <section id="skill">
+            <Skill />
+          </section>
+          <section id="achiv">
+            <Achievment />
+          </section>
+          <section>
+            <Footer />
+          </section>
+        </div>
+      )}
     </div>
   );
 };
