@@ -3,7 +3,7 @@ import feImg from "../assets/Fe.png";
 import webImg from "../assets/web.png";
 import jsImg from "../assets/js.png";
 import apiImg from "../assets/Api.png";
-import js2Img from "../assets/js2.png";
+import js2Img from "../assets/Js2.png";
 import ngrokImg from "../assets/ngrok.png";
 import ciscoImg from "../assets/cisco.png";
 import Shapes from "../components/Shapes";
