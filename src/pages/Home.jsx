@@ -13,9 +13,18 @@ const Home = () => {
       ))}
     </div> 
 
-    <div className="text-[#bd9f67] absolute md:left-44 lg:left-52 lg:translate-y-[200px] lg:text-5xl md:text-4xl translate-y-[155px] sm:translate-y-[210px]  rotate-90 left-28 font-extrabold sm:w-60 sm:text-3xl text-lg sm:left-[145px] xl:left-[410px]  ">UI & UX Designer  </div>
-    <div className="text-[#bd9f67] absolute md:left-80 lg:left-[340px] lg:text-8xl  translate-y-[137px] sm:translate-y-[115px] rotate-90 sm:left-[270px] sm:rotate-0 sm:text-6xl w-36 left-[150px] font-extrabold w-70 text-xl md:translate-y-28 md:text-7xl xl:left-[550px]">Database Arcitecture  </div>
-    <div className="absolute font-bold text-[18px] translate-y-[65px] sm:translate-y-[70px] left-40 sm:left-[230px] md:left-[245px]  sm:text-5xl right-3  text-[#bd9f67] md:text-7xl md:translate-y-12 lg:text-8xl lg:translate-y-7 lg:left-[275px] xl:left-[480px]">MOOHZHAL</div>
+    <div className="flex flex-col justify-center  relative w-full ">
+  <div className="text-[#bd9f67] absolute md:left-44 lg:left-52 lg:translate-y-[200px] lg:text-5xl md:text-4xl translate-y-[155px] sm:translate-y-[210px] rotate-90 left-28 font-extrabold sm:w-60 sm:text-3xl text-lg sm:left-[145px] xl:left-[410px]">
+    UI & UX Designer
+  </div>
+  <div className="text-[#bd9f67] absolute md:left-80 lg:left-[340px] lg:text-8xl translate-y-[150px] sm:translate-y-[115px] rotate-90 sm:left-[270px] sm:rotate-0 sm:text-6xl w-36 left-[165px] font-extrabold w-70 text-xl md:translate-y-28 md:text-7xl xl:left-[550px]">
+    Database Architecture
+  </div>
+  <div className="absolute font-bold text-[18px] translate-y-[65px] sm:translate-y-[70px] left-40 sm:left-[230px] md:left-[245px] sm:text-5xl right-3 text-[#bd9f67] md:text-7xl md:translate-y-12 lg:text-8xl lg:translate-y-7 lg:left-[275px] xl:left-[480px]">
+    MOOHZHAL
+  </div>
+</div>
+
 
     
    
